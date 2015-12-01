@@ -50,6 +50,12 @@ technology that powers it. Privacy International defines "Mass Surveillance" as
 indiscriminate monitoring" \cite{website:privint}. In other words, mass
 surveillance is monitoring everybody. 
 
+Mass surveillance, long a tool of autocratic regimes like China and the USSR, 
+came to prominence in democratic governments the wake of early and mid-2000s 
+terror attacks in the United States and the United Kingdom. In the US, it was
+the passage of the USA PATRIOT Act in 2001 that provided the legal groundwork
+for the NSA's mass surveillance programs.
+
 Technology for mass surveillance takes many forms and names, but perhaps the
 most infamous is the NSA program codenamed PRISM. PRISM, one of the first top
 secret surveillance programs exposed by whistleblower Edward Snowden and
@@ -66,10 +72,17 @@ the NSA as the "widest reaching" system, XKEYSCORE not only collects but allows
 agents to search collected data and retrieve anything from phonecalls and Skype
 conversations to usernames and passwords.
 
+Once all of this data is collected, specific targets can be picked out an
+analyzed by hand, or the data can be mined using computer analysis to find
+noteworthy data points. Data mining involves the use of
+sophisticated computer algorithms to sort out terrorist threats from the troves
+of data collected. \cite{mining}. Theoretically, the use of data mining can
+identify and prevent terrorist attacks before they happen.
+
 \section{Ethics of Surveillance}
 
 As outlined in the previous section, mass surveillance is a powerful tool, and
-like most powerful tools, its use can come with cost.  
+like most powerful tools, its use can come with cost. 
 
 Neil M. Richards mentions in his essay "The Dangers of Surveillance,"
 \cite{richards} we often find it hard to pin down exactly what harm
@@ -101,13 +114,15 @@ surveillance apparatus.
 \section{Responsibility of the Programmer}
 
 The Association for Computing Machinery, a professional organization for
-computing professionals, addresses the issue of privacy in its Code of
-Ethics \cite{ethics}, in section 1.7, "Respect the privacy of others." In it,
-ACM instructs members to collect the minimum amount of data, adhere to strict
-data collection policies, and treat user data with the "...strictest
+computing professionals, addresses the issue of privacy in its Code of Ethics
+\cite{ethics}, in section 1.7, "Respect the privacy of others." In it, ACM
+instructs members to collect the minimum amount of data, adhere to strict data
+collection policies, and treat user data with the "...strictest
 confidentiality, except in cases where it is evidence for violation of law...".
 It is unclear whether or not the ACM Code of Ethics permits collection of data
-for government authorities.
+for government authorities. Thus, without clear guidance from our forebears in
+a professional code of ethics, we are left with the question of how, as
+computer professionals, to approach the issue of mass surveillance.
 
 Mathematician Tom Leinster argues in an article in \textit{New Scientist}
 \cite{leinster} that mathematicians have a responsibility to not participate in
@@ -119,11 +134,33 @@ question. In this case, ethics don't have to come from systemic codes or rules;
 instead, an industry-wide ethical position on mass surveillance can develop
 from the ground up.
 
-Snowden himself was an IT professional, and the question of whether or not his
+However, Leinster's approach has one substantial drawback: the NSA is the
+largest employer of mathematicians in the United States. Refusing to do
+business with them substantially hampers one's career and livelihood. The
+choice between working in the field you love and working on ethically ambiguous
+projects is less than clear cut when it comes time to make the decision.
+
+Edward Snowden, a professional in the software field, shows us an alternative
+ethical approach. When confronted with the ethical question of 
+likely-unconstitutional mass surveillance programs, Snowden chose to release
+classified documents outlining those programs to journalists, starting a
+national conversation on the topic. The question of whether or not his
 disclosures were ethical and justified is a hotly debated topic both within the
 industry and outside, and the answer to that question is closely connected to
 the question of what computer science professionals should do when confronted
 with mass surveillance.
+
+Snowden's approach is even more consequential than Leinster's. Blowing the
+whistle on government programs left him in exile in Russia, and facing charges
+that could send him to jail for the rest of his life.
+
+\section{Conclusion}
+
+Mass surveillance is a powerful technology, and the Snowden leaks have led to a
+massive national discussion on ethics of such programs, and a smaller,
+intra-industry discussion on how to handle the ethics of those programs. As you
+can see, mass surveillance can be very fraught with ethical problems, and the
+solutions are less than clear.
 
 \bibliographystyle{abbrv}
 \bibliography{main}
