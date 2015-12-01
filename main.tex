@@ -36,39 +36,47 @@ unconstitutional mass-surveillance programs conducted by the NSA. These
 programs collect and mine data on an unprecedented scale in an attempt to
 discover and terminate terrorist plots before they happen. However, there was
 widespread backlash among civil liberties advocates, who argue that mass
-surveillance infringes upon the right to privacy and stiffles the liberal
+surveillance infringes upon the right to privacy and stifles the liberal
 democracy it attempts to uphold. In the wake of the leaks, discussion ignited
 among computer science professionals about their ethical responsibilities
 toward such programs. 
 
 \section{What is Surveillance}
+
 For a comprehensive understanding of the ethical issues of surveillance, we
 first have to understand what mass surveillance is, what it's used for and the
-technology that
+technology that powers it. Privacy International defines "Mass Surveillance" as
+"... the subjection of a population or significant component of a group to
+indiscriminate monitoring" \cite{website:privint}. In other words, mass
+surveillance is monitoring everybody. 
 
-Surveillance is 
-Privacy International defines "Mass Surveillance" as "... the subjection of a
-population or significant component of a group to indiscriminate monitoring"
-\cite{website:privint}. In other words, mass surveillance is monitoring
-everybody.
+Technology for mass surveillance takes many forms and names, but perhaps the
+most infamous is the NSA program codenamed PRISM. PRISM, one of the first top
+secret surveillance programs exposed by whistleblower Edward Snowden and
+featured in a \textit{Guardian} article from June 2013 \cite{guardian}, is a
+program to collect massive amounts of bulk data from major internet companies.
+PRISM works by tapping directly into the servers of internet giants like
+Google and Apple. NSA agents can then analyze any data from these companies
+without the requirement and length waiting period of a warrant.
 
-Technology for mass surveillance takes many names, but perhaps the most
-infamous is the NSA program codenamed PRISM. PRISM, one of the first top secret
-surveillance programs exposed by whistleblower Edward Snowden in June 2013, is
-a program to collect massive amounts of bulk data from major internet service
-providers. 
+Another NSA program, called XKEYSCORE and outlined in July 2015 by The
+Intercept, is used to intercept and store user data collected at  approximately
+150 field sites around the world \cite{xkeyscore}. Referred to internally at
+the NSA as the "widest reaching" system, XKEYSCORE not only collects but allows
+agents to search collected data and retrieve anything from phonecalls and Skype
+conversations to usernames and passwords.
 
 \section{Ethics of Surveillance}
-As outlined in the previous section, mass surveillance is a powerful tool.
-However, like most powerful tools, its use can come with cost. The fear of
-surveillance and the importance of privacy have historically. However, as
-Richards mentions in his essay "The Dangers of Surveillance,"\cite{richards} 
-we often find it hard to pin down exactly what harm surveillance does us.
 
-Richards mentions that we draw much of our distrust from literary tales like
-Orwell's 1984, but admits that even the most ardent critics do not consider NSA
-programs analogous to Orwell's Big Brother. Instead, he presents two angles
-from which surveillance does harm. 
+As outlined in the previous section, mass surveillance is a powerful tool, and
+like most powerful tools, its use can come with cost.  
+
+Neil M. Richards mentions in his essay "The Dangers of Surveillance,"
+\cite{richards} we often find it hard to pin down exactly what harm
+surveillance does us. Richards mentions that we draw much of our distrust from
+literary tales like Orwell's 1984, but admits that even the most ardent critics
+do not consider NSA programs analogous to Orwell's Big Brother.  Instead, he
+presents two angles from which surveillance does harm. 
 
 The first angle is that surveillance constitutes a violation of intellectual
 privacy. Richards argues that intellectual privacy, -- that is, feeling that
@@ -83,9 +91,15 @@ Jr., who was blackmailed over marital indiscretions discovered in the course of
 FBI surveillance programs. He also points to the case of World War II, when
 census records were unsealed and used to intern Japanese- and German-Americans.
 
-
+Richards is not an academic within the field, but within the industry, many
+programmers also argue that this collection is unethical. For example, Rogaway
+argues in his Statement of Condemnation \cite{rogaway} that "Mass surveillance
+is intimidating, abuse-prone, and anti-democratic." He uses his position as a
+cryptographer as a basis for the legitimacy of his condemnation of the US 
+surveillance apparatus.
 
 \section{Responsibility of the Programmer}
+
 The Association for Computing Machinery, a professional organization for
 computing professionals, addresses the issue of privacy in its Code of
 Ethics \cite{ethics}, in section 1.7, "Respect the privacy of others." In it,
@@ -95,10 +109,21 @@ confidentiality, except in cases where it is evidence for violation of law...".
 It is unclear whether or not the ACM Code of Ethics permits collection of data
 for government authorities.
 
-Many programmers argue that this collection is unethical. For example, Rogway
-argues in his Statement of Condemnation \cite{rogway} that "Mass surveillance
-is intimidating, abuse-prone, and anti-democratic." This seems to put burden on
-the programmer 
+Mathematician Tom Leinster argues in an article in \textit{New Scientist}
+\cite{leinster} that mathematicians have a responsibility to not participate in
+mass-surveillance by depriving agencies of their talent. Similarly, Alexander
+Beilinson writes in a letter \cite{beilinson} to the editors of \textit{Notices
+of the AMS} that the AMS should sever ties with the NSA in the wake of the
+revelations about mass surveillance. This is one possible answer to the ethical
+question. In this case, ethics don't have to come from systemic codes or rules;
+instead, an industry-wide ethical position on mass surveillance can develop
+from the ground up.
+
+Snowden himself was an IT professional, and the question of whether or not his
+disclosures were ethical and justified is a hotly debated topic both within the
+industry and outside, and the answer to that question is closely connected to
+the question of what computer science professionals should do when confronted
+with mass surveillance.
 
 \bibliographystyle{abbrv}
 \bibliography{main}
