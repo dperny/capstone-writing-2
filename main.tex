@@ -20,18 +20,88 @@
 \maketitle
 \begin{abstract}
 This paper discusses the ethical problem of software engineers developing
-software for use in mass surveillence. Since NSA contractor Edward Snowden
-leaked documents revealing the extent of US government surveillance in 2013,
-software developers have been discussing their professional and ethical
-obligation to oppose mass surveillance.
+software for use in government mass surveillance. Since NSA contractor Edward
+Snowden leaked documents revealing the extent of US government surveillance in
+2013, software developers have been discussing their professional and ethical
+obligation to oppose mass surveillance. This paper discusses the underlying
+technology that powers mass surveillance, the general ethical arguments for and
+against, and programmer's responsibilities when confronted with mass
+surveillance.
 \end{abstract}
 
 \section{Introduction}
 In June of 2013, NSA contractor Edward Snowden obtained and leaked a large
 number of classified documents, in part detailing, among other things,
-unconstitutional mass-surveillance programs conducted by the NSA. In the wake
-of the leaks, discussion ignited among computer science professionals about the
-ethical responsibilities 
+unconstitutional mass-surveillance programs conducted by the NSA. These
+programs collect and mine data on an unprecedented scale in an attempt to
+discover and terminate terrorist plots before they happen. However, there was
+widespread backlash among civil liberties advocates, who argue that mass
+surveillance infringes upon the right to privacy and stiffles the liberal
+democracy it attempts to uphold. In the wake of the leaks, discussion ignited
+among computer science professionals about their ethical responsibilities
+toward such programs. 
+
+\section{What is Surveillance}
+For a comprehensive understanding of the ethical issues of surveillance, we
+first have to understand what mass surveillance is, what it's used for and the
+technology that
+
+Surveillance is 
+Privacy International defines "Mass Surveillance" as "... the subjection of a
+population or significant component of a group to indiscriminate monitoring"
+\cite{website:privint}. In other words, mass surveillance is monitoring
+everybody.
+
+Technology for mass surveillance takes many names, but perhaps the most
+infamous is the NSA program codenamed PRISM. PRISM, one of the first top secret
+surveillance programs exposed by whistleblower Edward Snowden in June 2013, is
+a program to collect massive amounts of bulk data from major internet service
+providers. 
+
+\section{Ethics of Surveillance}
+As outlined in the previous section, mass surveillance is a powerful tool.
+However, like most powerful tools, its use can come with cost. The fear of
+surveillance and the importance of privacy have historically. However, as
+Richards mentions in his essay "The Dangers of Surveillance,"\cite{richards} 
+we often find it hard to pin down exactly what harm surveillance does us.
+
+Richards mentions that we draw much of our distrust from literary tales like
+Orwell's 1984, but admits that even the most ardent critics do not consider NSA
+programs analogous to Orwell's Big Brother. Instead, he presents two angles
+from which surveillance does harm. 
+
+The first angle is that surveillance constitutes a violation of intellectual
+privacy. Richards argues that intellectual privacy, -- that is, feeling that
+our thoughts are not being monitored -- is important because the lack of
+privacy drives us to avoid behaviors that might be considered deviant or
+undesirable.
+
+The second angle is that surveillance, at its core, is about power over those
+being watched. Surveillance is always for a purpose, and many purposes are less
+than benign. For example, Richards points to the case of Dr. Martin Luther King
+Jr., who was blackmailed over marital indiscretions discovered in the course of
+FBI surveillance programs. He also points to the case of World War II, when
+census records were unsealed and used to intern Japanese- and German-Americans.
+
+
+
+\section{Responsibility of the Programmer}
+The Association for Computing Machinery, a professional organization for
+computing professionals, addresses the issue of privacy in its Code of
+Ethics \cite{ethics}, in section 1.7, "Respect the privacy of others." In it,
+ACM instructs members to collect the minimum amount of data, adhere to strict
+data collection policies, and treat user data with the "...strictest
+confidentiality, except in cases where it is evidence for violation of law...".
+It is unclear whether or not the ACM Code of Ethics permits collection of data
+for government authorities.
+
+Many programmers argue that this collection is unethical. For example, Rogway
+argues in his Statement of Condemnation \cite{rogway} that "Mass surveillance
+is intimidating, abuse-prone, and anti-democratic." This seems to put burden on
+the programmer 
+
+\bibliographystyle{abbrv}
+\bibliography{main}
 
 \end{document}
 
